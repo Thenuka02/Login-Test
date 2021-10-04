@@ -1,0 +1,16 @@
+.card{
+    background: rgb(163, 151, 151);
+    box-shadow: 0 0px 4pxc rgba(0, 0, 0, 0.26);
+    border-radius: none;
+    border-style: linear-gradient;
+    width: 50vh;
+    padding: 5px;
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    bottom: 0px;
+    
+}
+
+
+
