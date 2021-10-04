@@ -1,13 +1,15 @@
 .input {
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 1rem;
-    width: 90%;
+    width: 80%;
     max-width: 40rem;
+    color: rgb(42, 122, 226);
   }
   
   .input label {
     display: block;
     font-weight: bold;
+    border-color: chartreuse;
     margin-bottom: 0.5rem;
   }
   
@@ -22,7 +24,7 @@
   
   .input input:focus {
     outline: none;
-    border-color: #b07cbb;
+    border-color: #c74d98;
   }
   
   .div-login-logo{
