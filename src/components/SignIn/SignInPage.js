@@ -4,9 +4,9 @@ import React from 'react';
 //import Card from '../UI/Card';
 //import  classes from './SignInPage.module.css';
 //import Button from '../UI/Button';
-import Logo from '../../image/loginsam1.jpg'
+//import Logo from '../../image/loginsam1.jpg'
 //import './login.css';
-//import {ReactComponent as Logo} from '../../image/signup.png'
+import {ReactComponent as Logo} from '../../image/icons8-contacts.svg'
 //import { ReactComponent as Logo } from '../../image/signup.png';
 import hcbgImage from '../../image/bg2.jpg';
 
@@ -20,11 +20,15 @@ const SignInPage = props => {
     return (
         <div class='main-image'>
             <img src={hcbgImage} alt='nature' />
-            <div className='div-login'> 
-            <div className='div-login-logo'>
+            <div className='div-login'>
+                <div className='div-login-logo'> 
+            {/* <div className='div-login-logo'>
             <img src={Logo} alt='Logo'></img>
             </div> 
+             */}
             
+                 <Logo />
+             </div>
             <div>
             <form onSubmit={addUserHandler}>
             <h1 > Sign In</h1>

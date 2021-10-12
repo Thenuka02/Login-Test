@@ -18,14 +18,9 @@
 } 
 
 .div-login-logo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
-    height:0 auto;
-    margin: 6px;
-    border-radius: 5%;
+    height: 10px;
+    width: 10px;
+    align-self: center;
 }
 
 input{
