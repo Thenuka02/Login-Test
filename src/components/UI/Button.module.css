@@ -3,8 +3,13 @@
     border: 1px solid #2179df;
     background: #2179df;
     color: white;
-    padding: 10px 60px;
+    padding: 5px 100px;
     cursor: pointer;
+    margin: 1rem auto;
+    
+    width: 80%;
+    max-width: 40rem;
+    
   }
   
   .button:hover,

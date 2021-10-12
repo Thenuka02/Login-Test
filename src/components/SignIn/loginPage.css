@@ -1,0 +1,127 @@
+.div-login{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(141, 132, 132);
+
+    width: 50vh;
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+} 
+
+.div-login-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    height:0 auto;
+    margin: 6px;
+    border-radius: 5%;
+}
+
+input{
+    
+    border-radius: 5px;
+    background-color: #fafafa;
+    box-shadow: none;
+    font-family: inherit;
+    display: block;
+
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.50rem;
+    margin-bottom: 0.5rem;
+}
+
+button{
+    width: 100%;
+    margin: 5px 0;
+    background-color: dodgerblue;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    
+    
+}
+
+h1 {
+    color: rgb(241, 241, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+.checkboxy{
+  display: flex;
+  position: left;
+  padding-left: 1px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  }
+
+ .split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.main-image {
+    width: 100%;
+    height: 50rem;
+    z-index: 0;
+    overflow: hidden;
+    float: left;
+  }
+
+  .main-image img {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    
+  }  
+
+  .link{
+      margin: 0;
+      font-family: serif;
+      float:left;
+      margin-top: 5px;
+  }
+
+  .link2{
+    margin: 0;
+    font-family: serif;
+    float:right;
+    margin-top: 5px;
+}
+ .link3{
+     margin: 0;
+     float: center;
+     text-align: center;
+     margin-top: 40px;
+ }
